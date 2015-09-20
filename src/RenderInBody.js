@@ -1,4 +1,4 @@
-import React, {Component, DOM, PropTypes} from "react"
+import React, {Component, PropTypes} from "react"
 import ReactDOM from "react-dom"
 
 

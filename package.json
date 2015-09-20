@@ -1,5 +1,6 @@
 {
   "name": "react-render-in-body",
+  "author": "James K Nelson <james@jamesknelson.com>",
   "version": "0.1.0",
   "description": "React component which render's it's children to the <body> component.",
   "main": "lib/RenderInBody.js",
@@ -17,13 +18,13 @@
     "class",
     "body"
   ],
-  "author": "James K Nelson <james@jamesknelson.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jamesknelson/react-render-in-body/issues"
   },
   "homepage": "https://github.com/jamesknelson/react-render-in-body#readme",
-  "dependencies": {
-    "invariant": "^2.1.0"
+  "peerDependencies": {
+    "react": "^0.14.0-rc1",
+    "react-dom": "^0.14.0-rc1"
   }
 }
