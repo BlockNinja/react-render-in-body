@@ -1,8 +1,8 @@
-import React, {PropTypes, DOM} from "react"
+import React, {Component, DOM, PropTypes} from "react"
 import ReactDOM from "react-dom"
 
 
-export default class RenderInBody extends Base {
+export default class RenderInBody extends Component {
   componentDidMount() {
     this.popup = document.createElement("div")
     document.body.appendChild(this.popup)
