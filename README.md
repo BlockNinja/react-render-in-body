@@ -49,4 +49,4 @@ Credit goes to James K Nelson
 
 ## License
 
-TODO: MIT
+MIT
