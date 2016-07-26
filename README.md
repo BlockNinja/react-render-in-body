@@ -15,14 +15,13 @@ class Prompt extends Component{
 	render() {
 		return (
 			<RenderInBody>
-					<div className="prompt">
-						{this.props.text}<br/>
-						<input type="text" ref="input" />
-						<footer>
-							<button onClick={this.props.OK}>OK</button>
-							<button onClick={this.props.Cancel}>Cancel</button>
-						</footer>
-					</div>
+				<div className="prompt">
+					{this.props.text}<br/>
+					<input type="text" ref="input" />
+					<footer>
+						<button onClick={this.props.OK}>OK</button>
+						<button onClick={this.props.Cancel}>Cancel</button>
+					</footer>
 				</div>
 			</RenderInBody>
 		)
